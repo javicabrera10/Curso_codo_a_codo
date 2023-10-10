@@ -1,0 +1,82 @@
+section{
+    height: 500px;
+    display: inline;
+    overflow: hidden;
+}
+
+header, .navbar, .logotipo{
+    background-color: dimgray;
+    color: #fff;
+    
+    height: 80px;
+    
+    
+}
+header.logotipo h5,
+header.logotipo p{
+    display: inline-block;
+    
+}
+.nav-link{
+    color: #fff;
+}
+.ticket-color{
+    color: rgb(36, 255, 7);
+}
+
+.imagen1{
+    background-image: url(imagenes/ba1.jpg);
+    
+    width: auto;
+    height: 662px;
+    vertical-align: middle;
+
+    /* background-blend-mode: luminosity; */
+    /* filter: brightness(50%); */
+}
+.imagen1::before {
+    content: "";
+  
+    position: absolute;
+  
+    top:0px;
+  
+    right: 0px;
+  
+    bottom: 40px;
+  
+    left: 0px;
+  
+    background-color: rgba(0, 0, 0, 0.6);
+  
+  }
+  
+
+  
+.ajustar-texto{
+    text-align: right;
+    color: #fff;
+    margin-right: 80px;
+    filter: brightness(150%);
+} 
+.texto, h2{
+    
+    margin-top: 0px;
+    
+    text-align: center;
+}
+.oradores-img{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.tarjeta{
+    color: #fff;
+    padding: 15px 15px;
+}
+.sec3{
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+
